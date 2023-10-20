@@ -59,10 +59,10 @@ function showMessage(message)
 
 
 $(document).ready((e)=>{
-
-
+    console.log("Miuhbvrsudb")
+    alert("muhammad");
     $("#login").click(()=>{
-
+        console.log("Miuhbvrsudb")
 
         let name=$("#name-value").val()
         localStorage.setItem("name",name)
@@ -74,6 +74,7 @@ $(document).ready((e)=>{
 
     $("#send-btn").click(()=>{
         sendMessage()
+
     })
 
     $("#logout").click(()=>{

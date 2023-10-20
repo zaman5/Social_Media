@@ -4,7 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-import com.sun.istack.NotNull;
+//import com.sun.istack.NotNull;
+import org.springframework.lang.NonNull;
 
 
 @Entity(name="Users")
@@ -14,7 +15,7 @@ public class Users {
 	@GeneratedValue
 	private int id;
 	
-	@NotNull
+	@NonNull
 	private String userId;
 	private String userName;
 	private String name;
